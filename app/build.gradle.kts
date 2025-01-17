@@ -47,6 +47,11 @@ android {
 }
 
 dependencies {
+    implementation("androidx.datastore:datastore-preferences:1.1.2")
+    implementation("io.insert-koin:koin-android:4.0.1") // Core Koin library for Android
+    implementation("io.insert-koin:koin-androidx-compose:4.0.1") // Koin integration with Jetpack Compose
+    implementation("io.insert-koin:koin-androidx-navigation:3.5.0") // Koin with Navigation
+
 
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
